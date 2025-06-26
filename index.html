@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+
+<body>
+    <center>
+        <h1>Rate and Review</h1>
+    </center>
+    <marquee behavior="alternate" direction="">
+        <p>Please rate us and our service. If you have any error and problems mention it. We will get in touch with you
+            soon.</p>
+    </marquee>
+    <form action="">
+        <fieldset>
+            <legend>
+                <h2>Personal Information</h2>
+            </legend>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <p>How satisfied are you with our service?</p>
+            <input type="radio" id="very-satisfied" name="satisfaction" value="very-satisfied">
+            <label for="very-satisfied">Very Satisfied</label><br>
+
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+            <label for="satisfied">Satisfied</label><br>
+
+            <input type="radio" id="neutral" name="satisfaction" value="neutral">
+            <label for="neutral">Neutral</label><br>
+
+            <input type="radio" id="dissatisfied" name="satisfaction" value="dissatisfied">
+            <label for="dissatisfied">Dissatisfied</label><br><br>
+
+            <label for="comments">Any Comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="30"></textarea><br><br>
+
+            <p>Error or Problem report.</p>
+            <input type="checkbox" id="error-report" name="error-report">
+            <label for="error-report">This review is an error or problem report.</label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Newsletter</legend>
+
+            <input type="checkbox" id="subscribe" name="subscribe" checked>
+            <label for="subscribe">Subscribe to our newsletter</label><br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Submit</legend>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <hr>
+
+    <footer>
+        <p>Thank you for your feedback!</p>
+        <p>&copy; 2023 XYZ Shipment.</p>
+        <p>Last Updated: June 2025</p>
+    </footer>
+
+</html>
